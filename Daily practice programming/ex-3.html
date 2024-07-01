@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+  body {
+    
+    text-align:center;
+    font-family: "Times New Roman", serif;
+    font-size: 24px;
+    /*background-image: url('https://www.srit.org/images/srit_logo_2.png');*/
+    background-size: cover;
+    /*background-size: 100px auto;*/ /* Adjust image size */
+    background-position: right 20px top 20px;
+    background-repeat: no-repeat;
+    padding-right: 20px;
+    background-color: #f0f0f0;
+    padding: 20px;
+  }
+  table {
+    border-collapse: collapse;
+    width: 100%;
+    margin: 20px auto;
+  }
+  th, td {
+    padding: 10px;
+    text-align: right;
+    border-bottom: 1px solid #ddd;
+  }
+  th {
+    background-color: #0080b3;
+    color: white;
+    height: 50px;
+  }
+
+  .registration-input {
+    text-align: right;
+  }
+  .registration-input input,
+  .registration-input textarea {height: 50px;
+    width: 100%;
+    box-sizing: border-box;
+  }
+  .register-button {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+   /* Additional CSS for radio buttons */
+  .radio-group {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+  }
+  .radio-group label {
+    margin-right: 20px;
+  }
+  
+  /* Additional CSS for registration input */
+  .registration-input {
+    text-align: right;
+  }
+  .registration-input input,
+  .registration-input textarea,
+  .registration-input select { /* Apply to select element */
+    height: 50px;
+    width: 100%;
+    box-sizing: border-box;
+  }
+</style>
+</head>
+<body>
+
+<img align=right src="C:\INTERNSHIP\srit logo.png">
+<h1>Personal Details Form</h1>
+
+
+  <table>
+    <tr>
+      <th class="registration-input">Name</th>
+      <td class="registration-input"><input type="text" name="name"></td>
+    </tr>
+    <tr>
+      <th class="registration-input">Year</th>
+      <td>
+        <div class="registration-input">
+      
+      <select name="class">
+        <option value="1st">1st year</option>
+        <option value="2nd">2nd year</option>
+        <option value="3rd">3rd year</option>
+        <option value="4rd">4th year</option>
+      </select>
+    </div>
+      </td>
+    </tr>
+    <tr>
+      <th class="registration-input">Photo</th>
+      <td class="registration-input"><input type="file"  name="photo"></td>
+    </tr>
+    <tr>
+      <th class="registration-input">Gender</th>
+      <td class="gender-size">
+        <div class="radio-group">
+          <label><input type="radio" name="gender" value="male"> Male</label>
+          <label><input type="radio" name="gender" value="female"> Female</label>
+          <label><input type="radio" name="gender" value="other"> Other</label>
+        </div>
+      </td>
+    </tr>
+    <tr>
+      <th class="registration-input">Address</th>
+      <td class="registration-input"><textarea name="address"></textarea></td>
+    </tr>
+    <tr>
+      <th class="registration-input">Phone</th>
+      <td class="registration-input"><input type="tel" name="phone"></td>
+    </tr>
+    <tr>
+      <th class="registration-input">Email</th>
+      <td class="registration-input"><input type="email" name="email"></td>
+    </tr>
+    <tr>
+      <th class="registration-input">Age</th>
+      <td class="registration-input"><input type="text" name="Age"></td>
+    </tr>
+    <tr>
+      <th class="registration-input">Date of Birth</th>
+      <td class="registration-input"><input type="date" name="dob"></td>
+    </tr>
+    <tr>
+      <th class="registration-input">Blood Group</th>
+      <td class="registration-input"><input type="text" name="Blood Group"></td>
+    </tr>
+  </table>
+   <div class="register-button">
+    <input type="Submit" onclick="alert('your details are saved successfully')"value="Submit">
+  </div>
+
+
+</body>
+</html>

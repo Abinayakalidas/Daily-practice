@@ -1,0 +1,18 @@
+#heading
+{
+	font-family: 'times new roman';
+	font-size: 24px;
+}
+
+td.right
+{
+	text-align: right;
+	background-color: lightblue;
+}
+
+#regform
+{
+	background-image: url('logo.png');
+	background-repeat: no-repeat;
+	background-position: top right;
+}

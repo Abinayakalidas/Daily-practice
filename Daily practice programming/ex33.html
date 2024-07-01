@@ -1,0 +1,91 @@
+html
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Personal Details</title>
+    <style>
+        body {
+            font-family: "Times New Roman", Times, serif;
+            font-size: 24px;
+        }
+
+        table {
+            border-collapse: collapse;
+            width: 100%;
+        }
+
+        th, td {
+            text-align: right;
+            padding: 8px;
+            border-bottom: 1px solid #ddd;
+        }
+
+        th {
+            background-color: lightblue;
+        }
+
+        .logo {
+            position: absolute;
+            top: 0;
+            right: 0;
+            width: 150px;
+            height: auto;
+            opacity: 0.5;
+        }
+    </style>
+</head>
+<body>
+    <img class="logo" src="path-to-your-college-logo.png" alt="College Logo">
+
+    <h1>Personal Details</h1>
+
+    <table>
+        <tr>
+            <th>Name:</th>
+            <td><input type="text"></td>
+        </tr>
+        <tr>
+            <th>Class:</th>
+            <td><input type="text"></td>
+        </tr>
+        <tr>
+            <th>Qualifications:</th>
+            <td><input type="text"></td>
+        </tr>
+        <tr>
+            <th>Photo:</th>
+            <td><input type="file"></td>
+        </tr>
+        <tr>
+            <th>Address:</th>
+            <td><input type="text"></td>
+        </tr>
+        <tr>
+            <th>Gender:</th>
+            <td><input type="radio" name="gender" value="Male"> Male
+                <input type="radio" name="gender" value="Female"> Female
+                <input type="radio" name="gender" value="Other"> Other</td>
+        </tr>
+        <tr>
+            <th>Age:</th>
+            <td><input type="number"></td>
+        </tr>
+        <tr>
+            <th>DOB:</th>
+            <td><input type="date"></td>
+        </tr>
+        <tr>
+            <th>Blood Group:</th>
+            <td><input type="text"></td>
+        </tr>
+        <tr>
+            <th>E-mail:</th>
+            <td><input type="email"></td>
+        </tr>
+        <tr>
+            <th>Phone No:</th>
+            <td><input type="tel"></td>
+        </tr>
+    </table>
+</body>
+</html>

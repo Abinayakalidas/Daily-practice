@@ -1,0 +1,45 @@
+<html>
+<head>
+<style>
+form
+{ 
+ font-size:18px;
+ <b> color:black </b>;
+background-color: pink;
+}
+</style>
+</head>
+<body>
+<form>
+<h1><center>Customer Survey Form</center></h1>
+<center><img src="C:\Users\abinaya\OneDrive\Pictures\NPTEL RESULT.jpeg" width="500" height="100">
+</center><br>
+<label id="name" for="name">1. Name<sub>*</sub></label>
+<input type="text" name="name" id="name" placeholder="Enter Your Name"/> <br>
+<p><label>2. Email<sub>*</sub> : <input type="text" /></label></p> 
+<p><label>3. Mobile<sub>*</sub>: <input type="text" /></label></p> 
+<label>4. Address : <br>
+<textarea name="address" cols="30" rows="3"> </textarea> </label><br>
+
+
+<p><label>5. Is this the first time you are using our products and services?</label>
+<select name="drop-down" id="drop-down">
+<option value="Yes">Yes</option>
+<option value="No">No</option>
+</select><br><br>
+
+<label>6.Would you suggest this to your friends and colleagues?</label><br>
+<input type="radio" id="product" name="product" value="yes"/>Yes <br>
+<input type="radio" id="product" name="product" value="No"/>No<br>
+
+<h4>7. How satisfied are you with our products?</h4>
+<input type="checkbox" id="product" name="product" value="satisfied"/> Satisfied<br>
+<input type="checkbox" id="product" name="product" value="Unsatisfied"/> 
+Unsatisfied<br>
+<h4>8.Do you have any suggestions to improve our products and services?</h4>
+<textarea id="comments" rows="5" columns="20"> 
+</textarea><br><br>
+<button type="button" onclick="alert('Your survey is Submitted')">Submit</button>
+</form>
+</body>
+</html>
